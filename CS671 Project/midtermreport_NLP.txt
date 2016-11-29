@@ -1,0 +1,32 @@
+Sub Problem Statement : 
+
+Topic Model Analysis of the Enron Email Corpus 
+
+We are trying to categorize words in the content of the emails that were exchanged between enron employees into 4 separate groups using LDA analysis to further study the frequency of these topics at various stages during the enron scandal.
+
+What did not work/ difficulties faced :
+
+At the beginning I tried to work with the csv file from the Kaggle Dataset but found handling it difficult due to my inexperience. 
+
+What I did :
+
+As a result I downloaded the dataset from the cmu website where it was arranged in the format of one folder per employee.
+
+Even then, the dataset was still huge, so i focussed on the sent folders of every employee. 
+
+Then I preprocessed the dataset to ignore irrelevant information and get the content of the emails and stored the content of each email in a separate text file , ready to be processed by LDA analysis.
+
+Difficulty faced:
+
+Performing LDA analysis on the 126000 txt files that i had would have taken up a lot of computation power on my machine and i feared that my machine would not be able to handle it. 
+
+What I did :
+
+I collected a random sample of 50,000 txt files from my sample of the contents of the emails exchanged between enron employees and performed LDA analysis on it using python, NLTK and gensim to generate 4 groups of words with probabilites of each word belonging to a particular group. I have not yet come up with labels for each group as that is a subjective matter and will be done after further examination of the output of the LDA analysis.
+
+Futher Goals:
+
+The purpose of this analysis is to finally look at graphs of the frequency and other functions of words with respect to time from these 4 groups to gather insight as to whether any particular set of words show clear indication of fraudulent behaviour or not.
+
+Reference :
+https://rforwork.info/2013/11/03/a-rather-nosy-topic-model-analysis-of-the-enron-email-corpus/
