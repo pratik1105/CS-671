@@ -14,4 +14,4 @@ Project Description:
 
 The project uses NLP techniques like topic modelling using LDA analysis to come up with a model to predict fraudulent behavior based on the enron email dataset.
 
-Project done in association with <a href="https://github.com/ManujNarang">Manuj Narang<\a>, Y14 IIT Kanpur.
+Project done in association with <a href="https://github.com/ManujNarang">Manuj Narang</a>, Y14 IIT Kanpur.
