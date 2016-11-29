@@ -1,0 +1,117 @@
+TOP -> NP VP
+X1 -> Aux NP
+TOP -> X1 VP
+TOP -> VB NP
+TOP -> VBD NP
+TOP -> VBG NP
+TOP -> VBN NP
+TOP -> VBP NP
+TOP -> VBZ NP
+TOP -> X2 PP
+TOP -> X3 PP
+TOP -> X4 PP
+TOP -> X5 PP
+TOP -> X6 PP
+TOP -> X7 PP
+TOP -> VB PP
+TOP -> VBD PP
+TOP -> VBG PP
+TOP -> VBN PP
+TOP -> VBP PP
+TOP -> VBZ PP
+TOP -> VP PP
+TOP -> 'plays'
+TOP -> 'reads'
+TOP -> 'book'
+TOP -> 'include'
+TOP -> 'prefer'
+TOP -> 'plays'
+TOP -> 'reads'
+TOP -> 'book'
+TOP -> 'include'
+TOP -> 'prefer'
+NP -> DT Nom
+Nom -> Nom NN
+Nom -> Nom PP
+VP -> VB NP
+VP -> VBD NP
+VP -> VBG NP
+VP -> VBN NP
+VP -> VBP NP
+VP -> VBZ NP
+X2 -> VB NP
+VP -> X2 PP
+X3 -> VBD NP
+VP -> X3 PP
+X4 -> VBG NP
+VP -> X4 PP
+X5 -> VBN NP
+VP -> X5 PP
+X6 -> VBP NP
+VP -> X6 PP
+X7 -> VBZ NP
+VP -> X7 PP
+VP -> VB PP
+VP -> VBD PP
+VP -> VBG PP
+VP -> VBN PP
+VP -> VBP PP
+VP -> VBZ PP
+VP -> VP PP
+PP -> IN NP
+IN -> 'to'
+DT -> 'that'
+DT -> 'this'
+DT -> 'a'
+NN -> 'book'
+NN -> 'flight'
+NN -> 'meal'
+NN -> 'money'
+VB -> 'book'
+VB -> 'include'
+VB -> 'prefer'
+PRP -> 'I'
+PRP -> 'she'
+PRP -> 'me'
+NNP -> 'Houston'
+NNP -> 'TWA'
+Aux -> 'does'
+IN -> 'from'
+IN -> 'to'
+IN -> 'on'
+IN -> 'near'
+IN -> 'through'
+NNP -> 'Rohela'
+VBZ -> 'plays'
+DT -> 'the'
+NN -> 'football'
+NNP -> 'Mohan'
+VBZ -> 'reads'
+DT -> 'a'
+NN -> 'book'
+NN -> 'book'
+DT -> 'the'
+NN -> 'flight'
+IN -> 'through'
+NNP -> 'Houston'
+VP -> 'plays'
+VP -> 'reads'
+VP -> 'book'
+VP -> 'include'
+VP -> 'prefer'
+Nom -> 'book'
+Nom -> 'flight'
+Nom -> 'meal'
+Nom -> 'money'
+Nom -> 'football'
+Nom -> 'book'
+Nom -> 'book'
+Nom -> 'flight'
+NP -> 'Houston'
+NP -> 'TWA'
+NP -> 'Rohela'
+NP -> 'Mohan'
+NP -> 'Houston'
+NP -> 'I'
+NP -> 'she'
+NP -> 'me'

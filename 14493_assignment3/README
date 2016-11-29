@@ -1,0 +1,15 @@
+HOW TO USE :
+
+First enter the sentences that you want to test on in the file sentence.txt, separated by newline and without fullstop at the end.
+Sample sentences are already present in the file sentence.txt.
+
+Then open the terminal in the current folder and from the terminal, enter the following command:
+python convert_grammar.py grammar.cfg grammar.cnf sentence.txt
+
+This converts the grammar to CNF form and also includes the POS tags for the test sentences into the grammar.
+ 
+Then from the terminal, enter the following command:
+python parse.py sentence.txt grammar.cnf
+
+This should produce the desired output on the screen if your test sentences comply with the grammar.
+ 
