@@ -1,16 +1,13 @@
 # CS-671
 Natural Language Processing course at IIT Kanpur.
 
-Year -2016 
+<b>Year</b> -2016 
 
-Semester - Monsoon (July-Nov)
+<b>Semester - Monsoon (July-Nov)
 
-Professor - Harish Karnick
+<b>Professor</b> - Harish Karnick
 
-Contains assignment solutions and project work done during the course.
-
-
-Project Description:
+<b>Project Description</b>:
 
 The project uses NLP techniques like topic modelling using LDA analysis to come up with a model to predict fraudulent behavior based on the enron email dataset.
 
