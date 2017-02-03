@@ -3,7 +3,7 @@ Natural Language Processing course at IIT Kanpur.
 
 <b>Year</b> -2016 
 
-<b>Semester - Monsoon (July-Nov)
+<b>Semester</b> - Monsoon (July-Nov)
 
 <b>Professor</b> - Harish Karnick
 
